@@ -7,9 +7,42 @@ import "../styles/global.css";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/favicon.svg" />
-    <title>Lavadero de Autos</title>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-element-bundle.min.js" defer></script>
+    <title>CarFlash - Lavadero de Autos en Montevideo</title>
+    <meta name="description" content="Lavado profesional de autos en Montevideo. Ofrecemos servicios de limpieza exterior e interior, con productos premium y atención personalizada." />
+    <meta name="keywords" content="lavadero de autos, lavado de autos, car wash, Montevideo, limpieza de autos, car flash" />
+    <meta name="author" content="CarFlash" />
+    <!-- Open Graph para Redes Sociales -->
+    <meta property="og:title" content="CarFlash - Lavadero de Autos" />
+    <meta property="og:description" content="Lavado de autos profesional en Montevideo con los mejores servicios." />
+    <meta property="og:image" content="/images/bmw-azul.jfif" />
+    <meta property="og:url" content="https://carflash.vercel.app" />
+    <meta property="og:type" content="website" />
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CarFlash - Lavadero de Autos" />
+    <meta name="twitter:description" content="Limpieza y detallado de autos con calidad premium." />
+    <meta name="twitter:image" content="/images/bmw-azul.jfif" />
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "CarFlash",
+        "image": "https://carflash.vercel.app/images/bmw-azul.jfif",
+        "description": "Lavado de autos profesional en Montevideo con servicios de limpieza exterior e interior.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Cooper 2206",
+          "addressLocality": "Montevideo",
+          "addressCountry": "UY"
+        },
+        "openingHours": "Mo-Su 10:00-19:00",
+        "telephone": "+59897962477",
+        "url": "https://carflash.vercel.app"
+      }
+      </script>
   </head>
   <body>
     <slot />
