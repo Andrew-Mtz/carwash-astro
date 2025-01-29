@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import Analytics from '@vercel/analytics/astro'
 ---
 
 <!DOCTYPE html>
@@ -46,6 +47,7 @@ import "../styles/global.css";
   </head>
   <body>
     <slot />
+    <Analytics />
     <script src="/js/navbar.js" defer></script>
   </body>
 </html>
