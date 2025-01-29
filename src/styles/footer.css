@@ -1,6 +1,6 @@
 .modern-footer {
+  color: #fff; /* Texto más blanco para más contraste */
   background-color: #0a74da;
-  color: white;
   padding: 30px 20px;
   font-size: 1rem;
 }
@@ -62,8 +62,8 @@
 .footer-column > .google-maps-button {
   display: block;
   margin-top: 10px;
+  color: #333; /* Texto oscuro */
   background: #ffc107;
-  color: #333;
   padding: 8px 10px;
   border-radius: 5px;
   font-weight: bold;
@@ -75,7 +75,7 @@
 .footer-column > .google-reviews-button:hover,
 .footer-column > .google-maps-button:hover {
   background: #ff9800;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
