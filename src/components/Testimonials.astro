@@ -1,0 +1,33 @@
+---
+import "../styles/testimonials.css";
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+---
+
+<section id="testimonials" class="testimonials">
+  <h2>⭐ Lo que dicen nuestros clientes ⭐</h2>
+
+  <div class="testimonial-carousel">
+    <swiper-container slides-per-view="1" navigation="true" pagination="true" autoplay-delay="5000">
+      <swiper-slide>
+        <div class="testimonial-card">
+          <p>"Excelente servicio, mi auto quedó impecable. ¡Volveré pronto!"</p>
+          <strong>- Juan Pérez</strong>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="testimonial-card">
+          <p>"Lavado premium recomendado, dejan el auto como nuevo."</p>
+          <strong>- María González</strong>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="testimonial-card">
+          <p>"Muy profesionales y atención rápida. 5 estrellas."</p>
+          <strong>- Pedro López</strong>
+        </div>
+      </swiper-slide>
+    </swiper-container>
+  </div>
+</section>

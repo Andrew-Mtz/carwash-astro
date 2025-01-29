@@ -1,0 +1,149 @@
+.services-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+}
+
+/* Grid para los servicios */
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Tarjetas de Servicio */
+.service-card {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover */
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* Cabecera de los servicios */
+.service-header {
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.service-header.premium h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #fff;
+}
+
+.service-header.premium .icon {
+  font-size: 1.2rem;
+  color: #fff; /* Alternativa: color: #d38b00; */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Diferentes colores para cada servicio */
+.service-header.basic {
+  background: linear-gradient(to right, #1e90ff, #0a74da);
+}
+
+.service-header.premium {
+  background: linear-gradient(to right, #ffb347, #ffcc33);
+}
+
+/* Precios */
+.price {
+  font-size: 1rem;
+  margin-top: 5px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Lista de características */
+.service-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-body li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+  color: #444;
+  text-align: left;
+}
+
+/* Asegurar que el icono y el texto queden alineados correctamente */
+.service-body li .icon {
+  font-size: 1.2rem;
+  min-width: 20px; /* Evita que el texto se desplace */
+  color: #d38b00; /* Un dorado más fuerte para que se note */
+}
+
+.service-body li:last-child {
+  border-bottom: none;
+}
+
+/* Separación de la sección de "También ofrecemos" */
+.extras-title {
+  margin-top: 50px;
+  font-size: 1.8rem;
+  color: #1e90ff;
+}
+
+/* Grid para los extras */
+.extras-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Tarjetas de extras */
+.extra-item {
+  background: #ffffff;
+  border-radius: 12px;
+  width: 250px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover */
+.extra-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* Iconos de extras */
+.extra-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #1e90ff;
+}
+
+.extra-item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.extra-item p {
+  font-size: 1rem;
+  color: #555;
+}

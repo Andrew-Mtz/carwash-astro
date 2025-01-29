@@ -1,0 +1,89 @@
+.modern-footer {
+  background-color: #0a74da;
+  color: white;
+  padding: 30px 20px;
+  font-size: 1rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column {
+  text-align: left;
+}
+
+.footer-column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  margin: 5px 0;
+}
+
+.footer-column a {
+  color: #ffc107;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-column a:hover {
+  color: #ff9800;
+  text-decoration: underline;
+}
+
+/* Estilo para los enlaces rápidos */
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 5px 0;
+}
+
+.footer-column ul li a {
+  color: white;
+  font-weight: bold;
+}
+
+.footer-column ul li a:hover {
+  color: #ffc107;
+}
+
+/* Botones de Google Maps y Reseñas */
+.footer-column > .google-reviews-button,
+.footer-column > .google-maps-button {
+  display: block;
+  margin-top: 10px;
+  background: #ffc107;
+  color: #333;
+  padding: 8px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.footer-column > .google-reviews-button:hover,
+.footer-column > .google-maps-button:hover {
+  background: #ff9800;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Línea final del footer */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 0.9rem;
+}

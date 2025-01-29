@@ -1,0 +1,72 @@
+/* src/styles/global-modern.css */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Aparece con animación */
+.hero h1,
+.hero p,
+.cta-button,
+.hero-content button {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+/* Reset básico */
+body,
+h1,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Sección general */
+section {
+  padding: 20px;
+}
+
+/* 🔹 Alternar Background Gradients en las Secciones */
+section:not(.hero):nth-of-type(odd) {
+  background: linear-gradient(
+    to bottom,
+    #f0f0f0,
+    #ffffff
+  ); /* Opción 1: Más visible */
+}
+
+section:not(.hero):nth-of-type(even) {
+  background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+}
+
+h2 {
+  font-size: 2rem;
+  color: #0a74da;
+  text-align: center;
+}
+
+.contact-section {
+  text-align: center;
+  padding: 50px 20px;
+  background: #f9f9f9;
+}

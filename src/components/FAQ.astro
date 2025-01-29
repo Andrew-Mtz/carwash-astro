@@ -1,0 +1,41 @@
+---
+import "../styles/faq.css";
+---
+<section id="faq" class="faq-section">
+  <h2>Preguntas Frecuentes</h2>
+  <div class="faq">
+    <div class="faq-item">
+      <button class="faq-question">¿Cuánto tiempo tarda el lavado?</button>
+      <div class="faq-answer">El lavado básico demora aproximadamente 15 minutos.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">¿Es necesario reservar?</button>
+      <div class="faq-answer">No es obligatorio, pero recomendamos reservar para evitar esperas.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">¿Cuál es el horario de atención?</button>
+      <div class="faq-answer">Atendemos todos los días de 10:00 AM a 7:00 PM.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">¿Cómo puedo contactarlos?</button>
+      <div class="faq-answer">
+        📞 Teléfono: <a href="tel:+59897962477">097 962 477</a> <br>
+        📸 Instagram: <a href="https://www.instagram.com/carflashautomoviles/" target="_blank">@carflashautomoviles</a>
+        💬 WhatsApp: <a href="https://wa.me/59892994277" target="_blank">092 994 277</a>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">¿Tienen promociones?</button>
+      <div class="faq-answer">Sí, tenemos la promoción <strong>Paga 2 y Lava 3</strong>.</div>
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+  document.querySelectorAll(".faq-question").forEach((button) => {
+    button.addEventListener("click", () => {
+      const answer = button.nextElementSibling;
+      answer.style.display = answer.style.display === "block" ? "none" : "block";
+    });
+  });
+</script>
