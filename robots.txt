@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://carflash.vercel.app/sitemap.xml
+Sitemap: https://carwash-astro.vercel.app/sitemap.xml
