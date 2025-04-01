@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://carwash-astro.vercel.app/sitemap.xml

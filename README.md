@@ -1,48 +1,65 @@
-# Astro Starter Kit: Basics
+# 🚗 CarFlash - Landing Page para Lavadero de Autos
 
-```sh
-npm create astro@latest -- --template basics
-```
+Landing page moderna y responsive para un lavadero de autos ficticio. Desarrollada con [Astro](https://astro.build/) para demostrar una arquitectura simple, veloz y orientada a sitios estáticos con buen rendimiento.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🌐 Ver sitio online
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+👉 [carflash.autos](https://carflash.autos)
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## ✨ Características
 
-## 🚀 Project Structure
+- Página única con scroll suave
+- Navegación clara y estructura visual limpia
+- Diseño responsive (apto para móviles, tablets y escritorio)
+- Componentes reutilizables con Astro
+- Rápido despliegue en Vercel
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🛠 Tecnologías utilizadas
+
+- [Astro](https://astro.build/)
+- HTML
+- CSS (custom)
+- **JavaScript**
+- Vercel (deploy)
+
+## 📁 Estructura del proyecto
 
 ```text
 /
 ├── public/
-│   └── favicon.svg
+│   ├── images/
+│   └── js/
 ├── src/
+│   ├── Components/
+│   │   ├── AboutUs.astro
+│   │   ├── FAQ.astro
+│   │   ├── Footer.astro
+│   │   ├── Gallery.astro
+│   │   ├── Header.astro
+│   │   ├── Map.astro
+│   │   ├── Services.astro
+│   │   ├── Testimonials.astro
+│   │   └── Welcome.astro
 │   ├── layouts/
 │   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── pages/
+│   │   └── index.astro
+│   └── styles/
+│       ├── faq.css
+│       ├── footer.css
+│       ├── gallery.css
+│       ├── global.css
+│       ├── Gallery.css
+│       ├── hero.css
+│       ├── map.css
+│       ├── navbar.css
+│       ├── services.css
+│       └── testimonials.css
+├── astro.config.mjs
+├── package.json
+└── README.md
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🧞 📄 Licencia
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Proyecto de práctica personal sin fines comerciales.
